@@ -28,3 +28,7 @@ docker run -p 8000:8000 package-monitor
 ```bash
 0 * * * * /usr/bin/python3 /path/to/package_monitor.py
 ```
+
+OUTPUT: 
+![image](https://github.com/user-attachments/assets/4c22befe-335d-4c69-90b5-4c8f60f8f4d8)
+

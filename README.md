@@ -3,6 +3,8 @@
 This project is a Python-based package monitoring tool that detects outdated `pip` packages,
 logs the results, and exposes a Prometheus metric endpoint for monitoring.
 
+## Tech Stack — Python, Prometheus, Linux, Bash, Virtualenv
+
 ## Features
 - Logs outdated Python packages.
 - Prometheus exporter (on port 8000).
@@ -29,6 +31,6 @@ docker run -p 8000:8000 package-monitor
 0 * * * * /usr/bin/python3 /path/to/package_monitor.py
 ```
 
-OUTPUT: 
+## Output 
 ![image](https://github.com/user-attachments/assets/4c22befe-335d-4c69-90b5-4c8f60f8f4d8)
 
